@@ -1,5 +1,5 @@
 CHOICES = {"r" => "Rock", "p" => "Paper", "s" => "Sciccors"}
-puts "Welcome to Rock, Paper, Sciccors"
+puts "Welcome to Rock, Paper, Sciccors."
 
 def check_win(player_choice, computer_choice,outcome)
   msg = puts "Player picked #{CHOICES[player_choice]} and computer picked #{CHOICES[computer_choice]}"
@@ -47,7 +47,7 @@ loop do
   puts "Play again? (Y/N)"
   still_play = gets.chomp.downcase
   if still_play == "n"
-    puts "Thanks for playing!"
+    puts "Thanks for playing! :)"
     break
   end
 end
